@@ -1,0 +1,22 @@
+.textCautat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cutie{
+    border: 2px solid blue;
+    text-align: center;
+    background-color: aqua;
+    padding: 5px;
+    width:35px;
+    height: 35px;
+}
+
+.spatiu{
+    border:1px solid white;
+    background-color: white;
+    width:35px;
+    height: 35px;
+
+}
