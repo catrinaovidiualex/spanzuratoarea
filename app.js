@@ -171,10 +171,7 @@ btnStart.addEventListener("click",()=>{
 
     </section>
 
-    <section class="persoana_generata">
-        <p>Alex</p>
-
-    </section>
+    
      
      `
      btnGenerareFraza.addEventListener("click",()=>{
