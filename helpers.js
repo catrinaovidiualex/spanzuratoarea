@@ -39,11 +39,14 @@ let setHome=()=>{
     let btn =document.querySelector(".start");
 
 
-    btn.addEventListener("click",()=>{
+    btn.addEventListener("click",(e)=>{
+
 
         startJoc("Ana are mere ");
         
     })
+
+    
 
 
 
@@ -120,8 +123,6 @@ let startJoc=(fraza)=>{
 
     container.innerHTML=`
     
-
-
     <header>
         <h3>Numarul de incercari este:</h3>
         <p class="incercari">${incercari}</p>
@@ -154,7 +155,7 @@ let startJoc=(fraza)=>{
 
     <section >
 
-       <button class="restart_joc">Incercati din nou</button>
+     
        
 
     </section>
@@ -163,7 +164,7 @@ let startJoc=(fraza)=>{
         
 
     </main>
-
+   
     <footer>
         <p>Copyright by Alex C.</p>
     </footer>
@@ -311,7 +312,13 @@ let setFinalJoc=(status)=>{
     
 
 
+
 }
+
+
+
+
+let btn_restart=document.querySelector(".restart_joc");
 
 
 
